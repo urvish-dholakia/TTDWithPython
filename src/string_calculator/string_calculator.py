@@ -1,2 +1,4 @@
 def add(input_value:str):
-    return 0
+    if input_value == "":
+        input_value = 0
+    return int(input_value)
