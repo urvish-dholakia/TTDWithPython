@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="Initial Commit">
+    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="fizzbuzz files created for the fizzbuzz program">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fizzbuzz/fizzbuzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fizzbuzz/fizzbuzz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fizzbuzz/test_fizzbuzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/fizzbuzz/test_fizzbuzz.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,10 +47,110 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_fizzbuzz.test_multiple_input_output.executor": "Run",
+    "Python tests.Python tests for test_fizzbuzz.test_str_to_int.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_blank_input.executor": "Run",
+    "Python tests.Python tests in test_fizzbuzz.py.executor": "Run",
+    "Python tests.Python tests in test_string_calculator.py.executor": "Run",
+    "Python.fizzbuzz.executor": "Run",
+    "Python.string_calculator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RunManager" selected="Python.fizzbuzz">
+    <configuration name="fizzbuzz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TTDWithPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/fizzbuzz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/fizzbuzz/fizzbuzz.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_fizzbuzz.test_multiple_input_output" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TTDWithPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/fizzbuzz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_fizzbuzz.test_multiple_input_output&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_fizzbuzz.test_str_to_int" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TTDWithPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/fizzbuzz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_fizzbuzz.test_str_to_int&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_fizzbuzz.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TTDWithPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/fizzbuzz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/fizzbuzz/test_fizzbuzz.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_string_calculator.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TTDWithPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/string_calculator/test_string_calculator.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.fizzbuzz" />
+        <item itemvalue="Python tests.Python tests in test_fizzbuzz.py" />
+        <item itemvalue="Python tests.Python tests for test_fizzbuzz.test_multiple_input_output" />
+        <item itemvalue="Python tests.Python tests for test_fizzbuzz.test_str_to_int" />
+        <item itemvalue="Python tests.Python tests in test_string_calculator.py" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,11 +175,61 @@
       <option name="project" value="LOCAL" />
       <updated>1725629323104</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add function created and cover scenrio for blank string">
+      <option name="closed" value="true" />
+      <created>1725630445020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725630445020</updated>
+    </task>
+    <task id="LOCAL-00003" summary="production code updated for single value">
+      <option name="closed" value="true" />
+      <created>1725631078914</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725631078914</updated>
+    </task>
+    <task id="LOCAL-00004" summary="function prepared for blank, single value and csv values set">
+      <option name="closed" value="true" />
+      <created>1725632496593</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725632496593</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fizzbuzz files created for the fizzbuzz program">
+      <option name="closed" value="true" />
+      <created>1725640417046</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725640417046</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="add function created and cover scenrio for blank string" />
+    <MESSAGE value="production code updated for single value" />
+    <MESSAGE value="function prepared for blank, single value and csv values set" />
+    <MESSAGE value="fizzbuzz files created for the fizzbuzz program" />
+    <option name="LAST_COMMIT_MESSAGE" value="fizzbuzz files created for the fizzbuzz program" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
