@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="fizzbuzz files created for the fizzbuzz program">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="fizzbuzz int to speicific strint int(2) and int(4) added">
       <change beforePath="$PROJECT_DIR$/src/fizzbuzz/fizzbuzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fizzbuzz/fizzbuzz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fizzbuzz/test_fizzbuzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/fizzbuzz/test_fizzbuzz.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "urvish-dholakia"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;urvish-dholakia&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/urvish-dholakia/TTDWithPython.git",
-    "accountId": "a40eef21-4d42-42ff-b727-e50e03ba3484"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/urvish-dholakia/TTDWithPython.git&quot;,
+    &quot;accountId&quot;: &quot;a40eef21-4d42-42ff-b727-e50e03ba3484&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -45,19 +43,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_fizzbuzz.test_multiple_input_output.executor": "Run",
-    "Python tests.Python tests for test_fizzbuzz.test_str_to_int.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_blank_input.executor": "Run",
-    "Python tests.Python tests in test_fizzbuzz.py.executor": "Run",
-    "Python tests.Python tests in test_string_calculator.py.executor": "Run",
-    "Python.fizzbuzz.executor": "Run",
-    "Python.string_calculator.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_fizzbuzz.test_multiple_input_output.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_fizzbuzz.test_str_to_int.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_blank_input.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_fizzbuzz.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_string_calculator.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fizzbuzz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.string_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.fizzbuzz">
     <configuration name="fizzbuzz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
@@ -145,8 +143,8 @@
       <list>
         <item itemvalue="Python.fizzbuzz" />
         <item itemvalue="Python tests.Python tests in test_fizzbuzz.py" />
-        <item itemvalue="Python tests.Python tests for test_fizzbuzz.test_multiple_input_output" />
         <item itemvalue="Python tests.Python tests for test_fizzbuzz.test_str_to_int" />
+        <item itemvalue="Python tests.Python tests for test_fizzbuzz.test_multiple_input_output" />
         <item itemvalue="Python tests.Python tests in test_string_calculator.py" />
       </list>
     </recent_temporary>
@@ -207,7 +205,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725640417046</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fizzbuzz int to specific str">
+      <option name="closed" value="true" />
+      <created>1725979795790</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725979795790</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fizzbuzz int to speicific strint int(2) and int(4) added">
+      <option name="closed" value="true" />
+      <created>1725979980496</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725979980496</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +241,9 @@
     <MESSAGE value="production code updated for single value" />
     <MESSAGE value="function prepared for blank, single value and csv values set" />
     <MESSAGE value="fizzbuzz files created for the fizzbuzz program" />
-    <option name="LAST_COMMIT_MESSAGE" value="fizzbuzz files created for the fizzbuzz program" />
+    <MESSAGE value="Fizzbuzz int to specific str" />
+    <MESSAGE value="fizzbuzz int to speicific strint int(2) and int(4) added" />
+    <option name="LAST_COMMIT_MESSAGE" value="fizzbuzz int to speicific strint int(2) and int(4) added" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

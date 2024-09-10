@@ -10,5 +10,7 @@ def fizzbuzz_str_to_int(input_value: str):
 def fizzbuzz_int_to_specific_str(input_value: str):
     if input_value == int(2):
         output_value = "Fizz"
+        print(output_value)
     elif input_value == int(4):
         output_value = "Buzz"
+        print(output_value)
