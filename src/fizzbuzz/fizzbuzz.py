@@ -1,16 +1,9 @@
-def fizzbuzz_int_string(input_value: str):
-    if input_value == "":
-        print("Give Input Value")
-    elif input_value == "2":
-        return int(input_value)
-    elif input_value == "4":
-        return int(input_value)
-    str_to_list = input_value.split(",")
-    for iterator in str_to_list:
-        if iterator == "2":
-            output_value = "Fizz"
-            print(output_value)
-        elif iterator == "4":
-            output_value = "Buzz"
-            print(output_value)
-    return str(output_value)
+def fizzbuzz(input_value: int):
+    if (input_value % 3 == 0 and input_value % 5 == 0):
+        return "FizzBuzz"
+    elif input_value % 3 == 0:
+        return "Fizz"
+    elif input_value % 5 == 0:
+        return "Buzz"
+    else:
+        return str(input_value)

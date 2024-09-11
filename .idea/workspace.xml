@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="output_value print test">
+    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="functions and test updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fizzbuzz/fizzbuzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fizzbuzz/fizzbuzz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fizzbuzz/test_fizzbuzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/fizzbuzz/test_fizzbuzz.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_fizzbuzz.test_multiple_input_output.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_fizzbuzz.test_str_to_int.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_string_calculator.test_blank_input.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_fizzbuzz.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_string_calculator.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fizzbuzz.executor&quot;: &quot;Run&quot;,
-    &quot;Python.string_calculator.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_fizzbuzz.test_fizzbuzz_input_for_1.executor": "Run",
+    "Python tests.Python tests for test_fizzbuzz.test_fizzbuzz_input_for_25.executor": "Run",
+    "Python tests.Python tests for test_fizzbuzz.test_int_to_specific_str.executor": "Run",
+    "Python tests.Python tests for test_fizzbuzz.test_multiple_input_output.executor": "Run",
+    "Python tests.Python tests for test_fizzbuzz.test_str_to_int.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_blank_input.executor": "Run",
+    "Python tests.Python tests in test_fizzbuzz.py.executor": "Run",
+    "Python tests.Python tests in test_string_calculator.py.executor": "Run",
+    "Python.fizzbuzz.executor": "Run",
+    "Python.string_calculator.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python tests.Python tests in test_fizzbuzz.py">
     <configuration name="fizzbuzz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
@@ -79,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_fizzbuzz.test_multiple_input_output" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_fizzbuzz.test_fizzbuzz_input_for_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,7 +95,22 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fizzbuzz.test_multiple_input_output&quot;" />
+      <option name="_new_target" value="&quot;test_fizzbuzz.test_fizzbuzz_input_for_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_fizzbuzz.test_fizzbuzz_input_for_25" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TTDWithPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/fizzbuzz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_fizzbuzz.test_fizzbuzz_input_for_25&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -124,28 +144,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_string_calculator.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="TTDWithPython" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/string_calculator/test_string_calculator.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in test_fizzbuzz.py" />
-        <item itemvalue="Python.fizzbuzz" />
+        <item itemvalue="Python tests.Python tests for test_fizzbuzz.test_fizzbuzz_input_for_1" />
+        <item itemvalue="Python tests.Python tests for test_fizzbuzz.test_fizzbuzz_input_for_25" />
         <item itemvalue="Python tests.Python tests for test_fizzbuzz.test_str_to_int" />
-        <item itemvalue="Python tests.Python tests for test_fizzbuzz.test_multiple_input_output" />
-        <item itemvalue="Python tests.Python tests in test_string_calculator.py" />
+        <item itemvalue="Python.fizzbuzz" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725980044267</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="functions and test updated">
+      <option name="closed" value="true" />
+      <created>1726062768847</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726062768847</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,20 +265,10 @@
     <MESSAGE value="Fizzbuzz int to specific str" />
     <MESSAGE value="fizzbuzz int to speicific strint int(2) and int(4) added" />
     <MESSAGE value="output_value print test" />
-    <option name="LAST_COMMIT_MESSAGE" value="output_value print test" />
+    <MESSAGE value="functions and test updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="functions and test updated" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/fizzbuzz/fizzbuzz.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
