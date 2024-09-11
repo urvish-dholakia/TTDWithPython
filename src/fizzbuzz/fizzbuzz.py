@@ -1,16 +1,16 @@
-def fizzbuzz_str_to_int(input_value: str):
-    if input_value == str("2"):
-        input_value = int(input_value)
-    elif input_value == str("4"):
-        input_value = int(input_value)
-    else:
-        input_value = 1
-
-
-def fizzbuzz_int_to_specific_str(input_value: str):
-    if input_value == int(2):
-        output_value = "Fizz"
-        print(output_value)
-    elif input_value == int(4):
-        output_value = "Buzz"
-        print(output_value)
+def fizzbuzz_int_string(input_value: str):
+    if input_value == "":
+        print("Give Input Value")
+    elif input_value == "2":
+        return int(input_value)
+    elif input_value == "4":
+        return int(input_value)
+    str_to_list = input_value.split(",")
+    for iterator in str_to_list:
+        if iterator == "2":
+            output_value = "Fizz"
+            print(output_value)
+        elif iterator == "4":
+            output_value = "Buzz"
+            print(output_value)
+    return str(output_value)

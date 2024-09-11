@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="fizzbuzz int to speicific strint int(2) and int(4) added">
-      <change beforePath="$PROJECT_DIR$/src/fizzbuzz/fizzbuzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/fizzbuzz/fizzbuzz.py" afterDir="false" />
+    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="output_value print test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.fizzbuzz">
+  <component name="RunManager" selected="Python tests.Python tests in test_fizzbuzz.py">
     <configuration name="fizzbuzz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
@@ -141,8 +141,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.fizzbuzz" />
         <item itemvalue="Python tests.Python tests in test_fizzbuzz.py" />
+        <item itemvalue="Python.fizzbuzz" />
         <item itemvalue="Python tests.Python tests for test_fizzbuzz.test_str_to_int" />
         <item itemvalue="Python tests.Python tests for test_fizzbuzz.test_multiple_input_output" />
         <item itemvalue="Python tests.Python tests in test_string_calculator.py" />
@@ -221,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725979980496</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="output_value print test">
+      <option name="closed" value="true" />
+      <created>1725980044267</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725980044267</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,9 +251,21 @@
     <MESSAGE value="fizzbuzz files created for the fizzbuzz program" />
     <MESSAGE value="Fizzbuzz int to specific str" />
     <MESSAGE value="fizzbuzz int to speicific strint int(2) and int(4) added" />
-    <option name="LAST_COMMIT_MESSAGE" value="fizzbuzz int to speicific strint int(2) and int(4) added" />
+    <MESSAGE value="output_value print test" />
+    <option name="LAST_COMMIT_MESSAGE" value="output_value print test" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/fizzbuzz/fizzbuzz.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
