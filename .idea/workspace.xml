@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="unnecessary variable and print lines removed">
-      <change afterPath="$PROJECT_DIR$/src/atm_machine/atm_machine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/atm_machine/test_atm_machine.py" afterDir="false" />
+    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="negetive try catch &#10;invalid input A scenario added , but not working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/string_calculator/string_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/string_calculator/string_calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/string_calculator/test_string_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/string_calculator/test_string_calculator.py" afterDir="false" />
@@ -81,7 +79,7 @@
     "last.edited.regexp": "Sample Text"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_string_calculator.test_string_input">
+  <component name="RunManager" selected="Python tests.Python tests in test_string_calculator.py">
     <configuration name="string_calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
@@ -166,8 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_string_calculator.test_string_input" />
         <item itemvalue="Python tests.Python tests in test_string_calculator.py" />
+        <item itemvalue="Python tests.Python tests for test_string_calculator.test_string_input" />
         <item itemvalue="Python tests.Python tests for test_string_calculator.test_multiple_deli" />
         <item itemvalue="Python tests.Python tests for test_string_calculator.test_multiple_single_length_seperators" />
         <item itemvalue="Python.string_calculator" />
@@ -350,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726298358901</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="negetive try catch &#10;invalid input A scenario added , but not working">
+      <option name="closed" value="true" />
+      <created>1726300924855</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1726300924855</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -383,7 +389,8 @@
     <MESSAGE value="String_Calculator_almost_done with the help of below code &#10;&#10;import re&#10;&#10;def process_data(text, predefined_separators):&#10;    # Extract separators from brackets&#10;    bracket_separators = re.findall(r'\[(.*?)\]', text)&#10;    all_separators = set(''.join(bracket_separators) + ''.join(predefined_separators))&#10;&#10;    # Remove content inside brackets&#10;    cleaned_text = re.sub(r'\[.*?\]', '', text)&#10;&#10;    # Create a regex pattern from all separators&#10;    separator_pattern = '|'.join(map(re.escape, all_separators))&#10;    &#10;    # Split the text using the separators and filter out empty strings&#10;    parts = [part.strip() for part in re.split(separator_pattern, cleaned_text) if part.strip()]&#10;    &#10;    # Join parts with commas to create comma-separated content&#10;    comma_separated = ','.join(parts)&#10;    &#10;    # Convert to list and calculate sum of numeric values&#10;    data_list = comma_separated.split(',')&#10;    numeric_values = []&#10;    for item in data_list:&#10;        try:&#10;            numeric_values.append(float(item))&#10;        except ValueError:&#10;            pass  # Skip non-numeric values&#10;    &#10;    total_sum = sum(numeric_values)&#10;    &#10;    return data_list, comma_separated, total_sum&#10;&#10;# Example usage&#10;predefined_separators = [',', ';', ':', '|', '\n']&#10;text = &quot;10[, . ;]20.30;40|50\n60&quot;&#10;&#10;result_list, comma_separated_result, result_sum = process_data(text, predefined_separators)&#10;print(&quot;Resulting list:&quot;, result_list)&#10;print(&quot;Comma-separated content:&quot;, comma_separated_result)&#10;print(&quot;Sum of numeric values:&quot;, result_sum)" />
     <MESSAGE value="variable renaming" />
     <MESSAGE value="unnecessary variable and print lines removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="unnecessary variable and print lines removed" />
+    <MESSAGE value="negetive try catch &#10;invalid input A scenario added , but not working" />
+    <option name="LAST_COMMIT_MESSAGE" value="negetive try catch &#10;invalid input A scenario added , but not working" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

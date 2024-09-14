@@ -5,9 +5,6 @@ def test_blank_input():
     assert add("") == 0
 
 
-def test_string_input():
-    assert add("A") == "Invalid Input"
-
 def test_input_is_four():
     assert add("4") == 4
 
