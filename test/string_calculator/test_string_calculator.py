@@ -27,3 +27,11 @@ def test_negative_number_and_bigger_than_1000():
 
 def test_deli_inside_square_bracket():
         assert add("[***]\n1***2***3") == 6
+
+
+def test_multiple_single_length_seperators():
+    assert add("//[*][%]\n1*2%3") == 6
+
+
+def test_multiple_longer_length_seperators():
+    assert add("//[foo][bar]\n1foo2bar3") == 6
