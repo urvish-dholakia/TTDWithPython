@@ -4,6 +4,11 @@ import re
 def add(input_value: str):
     if input_value == "":
         input_value = str(0)
+    try:
+        assert input_value.isalpha() == "False"
+    except AssertionError:
+        print("Invalid Input")
+        raise
     predefined_seperators = [',', ';', ':', '|', '\n', '/']
     bracket_seperators = re.findall(r'\[(.*?)\]', str(input_value))
     joined_all_seperators = set(''.join(bracket_seperators) + ''.join(predefined_seperators))
@@ -16,6 +21,10 @@ def add(input_value: str):
     print(str_to_list)
     sum = 0
     for iterator in str_to_list:
+        try:
+            assert int(iterator) > 0
+        except AssertionError:
+            print("Number is Negative")
         if 0 < int(iterator) < 1000:
             sum = sum + int(iterator)
     return int(sum)

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="variable renaming">
+    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="unnecessary variable and print lines removed">
+      <change afterPath="$PROJECT_DIR$/src/atm_machine/atm_machine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/atm_machine/test_atm_machine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/string_calculator/string_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/string_calculator/string_calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/string_calculator/test_string_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/string_calculator/test_string_calculator.py" afterDir="false" />
     </list>
@@ -62,6 +65,7 @@
     "Python tests.Python tests for test_string_calculator.test_negative_number.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_negative_number_and_bigger_than_1000.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_negetive_number.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_string_input.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_values_csv.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_values_csv_for_unknown_numbers.executor": "Run",
     "Python tests.Python tests in test_atm_machine.py.executor": "Run",
@@ -77,7 +81,7 @@
     "last.edited.regexp": "Sample Text"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in test_string_calculator.py">
+  <component name="RunManager" selected="Python tests.Python tests for test_string_calculator.test_string_input">
     <configuration name="string_calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
@@ -100,6 +104,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_string_calculator.test_multiple_deli" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TTDWithPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_string_calculator.test_multiple_deli&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_string_calculator.test_multiple_single_length_seperators" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
@@ -115,7 +134,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_string_calculator.test_negative_number_and_bigger_than_1000" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_string_calculator.test_string_input" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,22 +145,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_string_calculator.test_negative_number_and_bigger_than_1000&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_string_calculator.test_values_csv" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="TTDWithPython" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_string_calculator.test_values_csv&quot;" />
+      <option name="_new_target" value="&quot;test_string_calculator.test_string_input&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -162,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_string_calculator.test_string_input" />
         <item itemvalue="Python tests.Python tests in test_string_calculator.py" />
+        <item itemvalue="Python tests.Python tests for test_string_calculator.test_multiple_deli" />
         <item itemvalue="Python tests.Python tests for test_string_calculator.test_multiple_single_length_seperators" />
         <item itemvalue="Python.string_calculator" />
-        <item itemvalue="Python tests.Python tests for test_string_calculator.test_negative_number_and_bigger_than_1000" />
-        <item itemvalue="Python tests.Python tests for test_string_calculator.test_values_csv" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726298203902</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="unnecessary variable and print lines removed">
+      <option name="closed" value="true" />
+      <created>1726298358901</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1726298358901</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -370,7 +382,8 @@
     <MESSAGE value="String_Calculator_almost_done with the help of below code &#10;&#10;import re&#10;&#10;def process_data(text, predefined_separators):&#10;    # Extract separators from brackets&#10;    bracket_separators = re.findall(r'\[(.*?)\]', text)&#10;    all_separators = set(''.join(bracket_separators) + ''.join(predefined_separators))&#10;&#10;    # Remove content inside brackets&#10;    cleaned_text = re.sub(r'\[.*?\]', '', text)&#10;&#10;    # Create a regex pattern from all separators&#10;    separator_pattern = '|'.join(map(re.escape, all_separators))&#10;    &#10;    # Split the text using the separators and filter out empty strings&#10;    parts = [part.strip() for part in re.split(separator_pattern, cleaned_text) if part.strip()]&#10;    &#10;    # Join parts with commas to create comma-separated content&#10;    comma_separated = ','.join(parts)&#10;    &#10;    # Convert to list and calculate sum of numeric values&#10;    data_list = comma_separated.split(',')&#10;    numeric_values = []&#10;    for item in data_list:&#10;        try:&#10;            numeric_values.append(float(item))&#10;        except ValueError:&#10;            pass  # Skip non-numeric values&#10;    &#10;    total_sum = sum(numeric_values)&#10;    &#10;    return data_list, comma_separated, total_sum&#10;&#10;# Example usage&#10;predefined_separators = [',', ';', ':', '|', '\n']&#10;text = &quot;10[, . ;]20.30;40|50\n60&quot;&#10;&#10;result_list, comma_separated_result, result_sum = process_data(text, predefined_separators)&#10;print(&quot;Resulting list:&quot;, result_list)&#10;print(&quot;Comma-separated content:&quot;, comma_separated_result)&#10;print(&quot;Sum of numeric values:&quot;, result_sum)" />
     <MESSAGE value="String_Calculator_almost_done with the help of below code &#10;&#10;import re&#10;&#10;def process_data(text, predefined_separators):&#10;    # Extract separators from brackets&#10;    bracket_separators = re.findall(r'\[(.*?)\]', text)&#10;    all_separators = set(''.join(bracket_separators) + ''.join(predefined_separators))&#10;&#10;    # Remove content inside brackets&#10;    cleaned_text = re.sub(r'\[.*?\]', '', text)&#10;&#10;    # Create a regex pattern from all separators&#10;    separator_pattern = '|'.join(map(re.escape, all_separators))&#10;    &#10;    # Split the text using the separators and filter out empty strings&#10;    parts = [part.strip() for part in re.split(separator_pattern, cleaned_text) if part.strip()]&#10;    &#10;    # Join parts with commas to create comma-separated content&#10;    comma_separated = ','.join(parts)&#10;    &#10;    # Convert to list and calculate sum of numeric values&#10;    data_list = comma_separated.split(',')&#10;    numeric_values = []&#10;    for item in data_list:&#10;        try:&#10;            numeric_values.append(float(item))&#10;        except ValueError:&#10;            pass  # Skip non-numeric values&#10;    &#10;    total_sum = sum(numeric_values)&#10;    &#10;    return data_list, comma_separated, total_sum&#10;&#10;# Example usage&#10;predefined_separators = [',', ';', ':', '|', '\n']&#10;text = &quot;10[, . ;]20.30;40|50\n60&quot;&#10;&#10;result_list, comma_separated_result, result_sum = process_data(text, predefined_separators)&#10;print(&quot;Resulting list:&quot;, result_list)&#10;print(&quot;Comma-separated content:&quot;, comma_separated_result)&#10;print(&quot;Sum of numeric values:&quot;, result_sum)" />
     <MESSAGE value="variable renaming" />
-    <option name="LAST_COMMIT_MESSAGE" value="variable renaming" />
+    <MESSAGE value="unnecessary variable and print lines removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="unnecessary variable and print lines removed" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
