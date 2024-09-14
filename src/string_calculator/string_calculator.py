@@ -4,8 +4,18 @@ import re
 def add(input_value: str):
     if input_value == "":
         input_value = str(0)
-    str_del = re.findall(r'\[(.*?)\]', str(input_value))
-    str_to_list = re.split("str_del|,|\n|;", input_value)
+    seperators = [',', ';', ':', '|', '\n']
+    joined_seperators = '|'.join(map(re.escape, seperators))
+    # print(joined_seperators)
+    str_square_sep = re.findall(r'\[(.*?)\]', str(input_value))
+    # print(str_square_sep)
+    joined_all_seperators = set(''.join(str_square_sep) + ''.join(seperators))
+    print(joined_all_seperators)
+    cleaned_text = re.sub(r'\[.*?\]', '', input_value)
+    separator_pattern = '|'.join(map(re.escape, joined_all_seperators))
+    parts = [part.strip() for part in re.split(separator_pattern, cleaned_text) if part.strip()]
+    comma_separated = ','.join(parts)
+    str_to_list = comma_separated.split(',')
     print(str_to_list)
     sum = 0
     for iterator in str_to_list:
