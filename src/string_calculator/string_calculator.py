@@ -5,10 +5,7 @@ def add(input_value: str):
     if input_value == "":
         input_value = str(0)
     predefined_seperators = [',', ';', ':', '|', '\n', '/']
-    joined_seperators = '|'.join(map(re.escape, predefined_seperators))
-    # print(joined_seperators)
     bracket_seperators = re.findall(r'\[(.*?)\]', str(input_value))
-    # print(bracket_seperators)
     joined_all_seperators = set(''.join(bracket_seperators) + ''.join(predefined_seperators))
     print(joined_all_seperators)
     cleaned_text = re.sub(r'\[.*?\]', '', input_value)
