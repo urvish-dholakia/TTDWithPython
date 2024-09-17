@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="negetive try catch &#10;invalid input A scenario added , but not working">
+    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="negative value catch method update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atm_machine/atm_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/atm_machine/atm_machine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/string_calculator/string_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/string_calculator/string_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/atm_machine/test_atm_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/atm_machine/test_atm_machine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/string_calculator/test_string_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/string_calculator/test_string_calculator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,9 +55,13 @@
     "Python tests.Python tests for test_fizzbuzz.test_multiple_input_output.executor": "Run",
     "Python tests.Python tests for test_fizzbuzz.test_str_to_int.executor": "Run",
     "Python tests.Python tests for test_leap_year.test_leap_year.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_add_no_negatives.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_add_with_negatives.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_blank_input.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_deli_inside_square_bracket.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_delimeter_inside_square_bracket.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_disallow_negative.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_ignore_numbers_bigger_than_1000.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_input_is_four.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_multiple_deli.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_multiple_delimeter.executor": "Run",
@@ -102,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_string_calculator.test_multiple_deli" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_string_calculator.test_add_no_negatives" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,11 +119,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_string_calculator.test_multiple_deli&quot;" />
+      <option name="_new_target" value="&quot;test_string_calculator.test_add_no_negatives&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_string_calculator.test_multiple_single_length_seperators" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_string_calculator.test_add_with_negatives" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,11 +134,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_string_calculator.test_multiple_single_length_seperators&quot;" />
+      <option name="_new_target" value="&quot;test_string_calculator.test_add_with_negatives&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_string_calculator.test_string_input" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_string_calculator.test_disallow_negative" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,7 +149,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_string_calculator.test_string_input&quot;" />
+      <option name="_new_target" value="&quot;test_string_calculator.test_disallow_negative&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -165,10 +171,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in test_string_calculator.py" />
-        <item itemvalue="Python tests.Python tests for test_string_calculator.test_string_input" />
-        <item itemvalue="Python tests.Python tests for test_string_calculator.test_multiple_deli" />
-        <item itemvalue="Python tests.Python tests for test_string_calculator.test_multiple_single_length_seperators" />
         <item itemvalue="Python.string_calculator" />
+        <item itemvalue="Python tests.Python tests for test_string_calculator.test_add_no_negatives" />
+        <item itemvalue="Python tests.Python tests for test_string_calculator.test_add_with_negatives" />
+        <item itemvalue="Python tests.Python tests for test_string_calculator.test_disallow_negative" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726300924855</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="negative value catch method update">
+      <option name="closed" value="true" />
+      <created>1726304193434</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1726304193434</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,7 +404,8 @@
     <MESSAGE value="variable renaming" />
     <MESSAGE value="unnecessary variable and print lines removed" />
     <MESSAGE value="negetive try catch &#10;invalid input A scenario added , but not working" />
-    <option name="LAST_COMMIT_MESSAGE" value="negetive try catch &#10;invalid input A scenario added , but not working" />
+    <MESSAGE value="negative value catch method update" />
+    <option name="LAST_COMMIT_MESSAGE" value="negative value catch method update" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

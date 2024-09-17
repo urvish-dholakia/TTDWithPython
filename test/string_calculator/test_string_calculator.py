@@ -1,3 +1,5 @@
+import pytest
+
 from src.string_calculator.string_calculator import add
 
 
@@ -21,8 +23,19 @@ def test_multiple_deli():
     assert add("1\n2,3") == 6
 
 
-def test_negative_number_and_bigger_than_1000():
-    assert add("1,-2,-3,1000,4") == 5
+def test_add_with_negatives():
+    with pytest.raises(ValueError) as exc_info:
+        add("1,-2,-3")
+    assert str(exc_info.value) == "Negatives not allowed: -2 -3"
+
+
+def test_add_no_negatives():
+    # Test a valid input with no negatives
+    assert add("1,2,3") == 6
+
+
+def test_ignore_numbers_bigger_than_1000():
+    assert add("1000,2") == 2
 
 
 def test_deli_inside_square_bracket():
