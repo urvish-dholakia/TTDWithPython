@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="pytest testing 01">
-      <change afterPath="$PROJECT_DIR$/src/pytest_program/pytest_program.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pytest_program/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pytest_program/test_compare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pytest_program/test_div_by_13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pytest_program/test_div_by_3_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pytest_program/test_multiplication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pytest_program/test_square.py" afterDir="false" />
+    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="pytest testing 02">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string_calculator/string_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/string_calculator/string_calculator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,14 +61,14 @@
     "Python tests.Python tests for test_square.test_equality.executor": "Run",
     "Python tests.Python tests for test_square.test_sqrt.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_add_no_negatives.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_add_with_negatives.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_add_with_negatives.executor": "Debug",
     "Python tests.Python tests for test_string_calculator.test_blank_input.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_deli_inside_square_bracket.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_delimeter_inside_square_bracket.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_disallow_negative.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_ignore_numbers_bigger_than_1000.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_input_is_four.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_multiple_deli.executor": "Run",
+    "Python tests.Python tests for test_string_calculator.test_multiple_deli.executor": "Debug",
     "Python tests.Python tests for test_string_calculator.test_multiple_delimeter.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_multiple_single_length_seperators.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_negative_number.executor": "Run",
@@ -87,6 +81,7 @@
     "Python tests.Python tests in test_fizzbuzz.py.executor": "Run",
     "Python tests.Python tests in test_leap_year.py.executor": "Run",
     "Python tests.Python tests in test_pytest.py.executor": "Run",
+    "Python tests.Python tests in test_square.py.executor": "Run",
     "Python tests.Python tests in test_string_calculator.py.executor": "Run",
     "Python.fizzbuzz.executor": "Run",
     "Python.leap_year.executor": "Run",
@@ -97,64 +92,49 @@
     "last.edited.regexp": "Sample Text"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_compare.test_greater_equal">
-    <configuration name="Python tests for test_compare.test_greater_equal" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in test_string_calculator.py">
+    <configuration name="Python tests for test_string_calculator.test_add_no_negatives" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/pytest_program" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_compare.test_greater_equal&quot;" />
+      <option name="_new_target" value="&quot;test_string_calculator.test_add_no_negatives&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.pytest_program.test_square.testsquare" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_string_calculator.test_add_with_negatives" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/pytest_program" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.pytest_program.test_square.testsquare&quot;" />
+      <option name="_new_target" value="&quot;test_string_calculator.test_add_with_negatives&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_square.test_equality" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_string_calculator.test_multiple_deli" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/pytest_program" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_square.test_equality&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_square.test_sqrt" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="TTDWithPython" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/pytest_program" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_square.test_sqrt&quot;" />
+      <option name="_new_target" value="&quot;test_string_calculator.test_multiple_deli&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -173,13 +153,28 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_string_calculator.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TTDWithPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/string_calculator/test_string_calculator.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_compare.test_greater_equal" />
-        <item itemvalue="Python tests.Python tests for test_square.test_sqrt" />
-        <item itemvalue="Python tests.Python tests for test_square.test_equality" />
+        <item itemvalue="Python tests.Python tests in test_string_calculator.py" />
+        <item itemvalue="Python tests.Python tests for test_string_calculator.test_add_with_negatives" />
+        <item itemvalue="Python tests.Python tests for test_string_calculator.test_multiple_deli" />
+        <item itemvalue="Python tests.Python tests for test_string_calculator.test_add_no_negatives" />
         <item itemvalue="Python tests.Python tests in test_square.py" />
-        <item itemvalue="Python tests.Python tests for test.pytest_program.test_square.testsquare" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726591340334</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="pytest testing 02">
+      <option name="closed" value="true" />
+      <created>1726663486424</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1726663486424</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,7 +422,8 @@
     <MESSAGE value="negetive try catch &#10;invalid input A scenario added , but not working" />
     <MESSAGE value="negative value catch method update" />
     <MESSAGE value="pytest testing 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="pytest testing 01" />
+    <MESSAGE value="pytest testing 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="pytest testing 02" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
