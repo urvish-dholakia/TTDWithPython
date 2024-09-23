@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="pytest testing 02">
+    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="string_Calc">
+      <change afterPath="$PROJECT_DIR$/src/stack_python/stack_katas_via_deque.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack_python/stack_via_deque.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack_python/stack_via_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string_calculator/string_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/string_calculator/string_calculator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +84,13 @@
     "Python tests.Python tests in test_leap_year.py.executor": "Run",
     "Python tests.Python tests in test_pytest.py.executor": "Run",
     "Python tests.Python tests in test_square.py.executor": "Run",
+    "Python tests.Python tests in test_stack_python.py.executor": "Run",
     "Python tests.Python tests in test_string_calculator.py.executor": "Run",
     "Python.fizzbuzz.executor": "Run",
     "Python.leap_year.executor": "Run",
+    "Python.stack_katas_via_deque.executor": "Debug",
+    "Python.stack_program.executor": "Run",
+    "Python.stack_via_deque.executor": "Debug",
     "Python.string_calculator.executor": "Run",
     "Python.test_leap_year.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -92,64 +98,85 @@
     "last.edited.regexp": "Sample Text"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in test_string_calculator.py">
-    <configuration name="Python tests for test_string_calculator.test_add_no_negatives" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.stack_katas_via_deque">
+    <configuration name="stack_katas_via_deque" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/stack_python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_string_calculator.test_add_no_negatives&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/stack_python/stack_katas_via_deque.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_string_calculator.test_add_with_negatives" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="stack_via_deque" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/stack_python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_string_calculator.test_add_with_negatives&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/stack_python/stack_via_deque.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_string_calculator.test_multiple_deli" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="stack_via_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/stack_python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_string_calculator.test_multiple_deli&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="C:\Users\admin\PycharmProjects\TTDWithPython\src\stack_python\stack_via_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_square.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in C:/Users/admin/PycharmProjects/TTDWithPython/test/test_stack_python/test_stack_python.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/pytest_program" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/test_stack_python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/pytest_program/test_square.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_stack_python/test_stack_python.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -170,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.stack_katas_via_deque" />
+        <item itemvalue="Python.stack_via_deque" />
+        <item itemvalue="Python.stack_via_list" />
+        <item itemvalue="Python tests.Python tests in C:/Users/admin/PycharmProjects/TTDWithPython/test/test_stack_python/test_stack_python.py" />
         <item itemvalue="Python tests.Python tests in test_string_calculator.py" />
-        <item itemvalue="Python tests.Python tests for test_string_calculator.test_add_with_negatives" />
-        <item itemvalue="Python tests.Python tests for test_string_calculator.test_multiple_deli" />
-        <item itemvalue="Python tests.Python tests for test_string_calculator.test_add_no_negatives" />
-        <item itemvalue="Python tests.Python tests in test_square.py" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +413,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726663486424</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="string_Calc">
+      <option name="closed" value="true" />
+      <created>1726671625775</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1726671625775</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,9 +458,28 @@
     <MESSAGE value="negative value catch method update" />
     <MESSAGE value="pytest testing 01" />
     <MESSAGE value="pytest testing 02" />
-    <option name="LAST_COMMIT_MESSAGE" value="pytest testing 02" />
+    <MESSAGE value="string_Calc" />
+    <option name="LAST_COMMIT_MESSAGE" value="string_Calc" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/stack_python/stack_katas_via_deque.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
