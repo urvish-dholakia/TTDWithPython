@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="string_Calc">
-      <change afterPath="$PROJECT_DIR$/src/stack_python/stack_katas_via_deque.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack_python/stack_via_deque.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack_python/stack_via_list.py" afterDir="false" />
+    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="stack_01">
+      <change afterPath="$PROJECT_DIR$/src/stack_python/stack_via_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_stack_python/test_stack_python.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +61,7 @@
     "Python tests.Python tests for test_pytest.testsquare.executor": "Run",
     "Python tests.Python tests for test_square.test_equality.executor": "Run",
     "Python tests.Python tests for test_square.test_sqrt.executor": "Run",
+    "Python tests.Python tests for test_stack_python.test_stack_python.executor": "Debug",
     "Python tests.Python tests for test_string_calculator.test_add_no_negatives.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_add_with_negatives.executor": "Debug",
     "Python tests.Python tests for test_string_calculator.test_blank_input.executor": "Run",
@@ -79,6 +79,7 @@
     "Python tests.Python tests for test_string_calculator.test_string_input.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_values_csv.executor": "Run",
     "Python tests.Python tests for test_string_calculator.test_values_csv_for_unknown_numbers.executor": "Run",
+    "Python tests.Python tests in C:/Users/admin/PycharmProjects/TTDWithPython/test/test_stack_python/test_stack_python.py.executor": "Run",
     "Python tests.Python tests in test_atm_machine.py.executor": "Run",
     "Python tests.Python tests in test_fizzbuzz.py.executor": "Run",
     "Python tests.Python tests in test_leap_year.py.executor": "Run",
@@ -88,9 +89,10 @@
     "Python tests.Python tests in test_string_calculator.py.executor": "Run",
     "Python.fizzbuzz.executor": "Run",
     "Python.leap_year.executor": "Run",
-    "Python.stack_katas_via_deque.executor": "Debug",
+    "Python.stack_katas_via_deque.executor": "Run",
     "Python.stack_program.executor": "Run",
     "Python.stack_via_deque.executor": "Debug",
+    "Python.stack_via_function.executor": "Run",
     "Python.string_calculator.executor": "Run",
     "Python.test_leap_year.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -98,7 +100,7 @@
     "last.edited.regexp": "Sample Text"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.stack_katas_via_deque">
+  <component name="RunManager" selected="Python tests.Python tests in C:/Users/admin/PycharmProjects/TTDWithPython/test/test_stack_python/test_stack_python.py">
     <configuration name="stack_katas_via_deque" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
@@ -143,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="stack_via_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="stack_via_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,13 +158,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\admin\PycharmProjects\TTDWithPython\src\stack_python\stack_via_list.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/stack_python/stack_via_function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_stack_python.test_stack_python" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TTDWithPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/test_stack_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_stack_python.test_stack_python&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in C:/Users/admin/PycharmProjects/TTDWithPython/test/test_stack_python/test_stack_python.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -180,28 +197,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_string_calculator.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="TTDWithPython" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/string_calculator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/string_calculator/test_string_calculator.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in C:/Users/admin/PycharmProjects/TTDWithPython/test/test_stack_python/test_stack_python.py" />
+        <item itemvalue="Python tests.Python tests for test_stack_python.test_stack_python" />
+        <item itemvalue="Python.stack_via_function" />
         <item itemvalue="Python.stack_katas_via_deque" />
         <item itemvalue="Python.stack_via_deque" />
-        <item itemvalue="Python.stack_via_list" />
-        <item itemvalue="Python tests.Python tests in C:/Users/admin/PycharmProjects/TTDWithPython/test/test_stack_python/test_stack_python.py" />
-        <item itemvalue="Python tests.Python tests in test_string_calculator.py" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +423,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726671625775</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="stack_01">
+      <option name="closed" value="true" />
+      <created>1727066250233</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1727066250233</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -459,7 +469,8 @@
     <MESSAGE value="pytest testing 01" />
     <MESSAGE value="pytest testing 02" />
     <MESSAGE value="string_Calc" />
-    <option name="LAST_COMMIT_MESSAGE" value="string_Calc" />
+    <MESSAGE value="stack_01" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack_01" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -471,6 +482,11 @@
           <url>file://$PROJECT_DIR$/src/stack_python/stack_katas_via_deque.py</url>
           <line>2</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/stack_python/stack_via_function.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
