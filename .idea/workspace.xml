@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="stack_03">
+    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="stack_04">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stack_python/stack_via_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_python/stack_via_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_stack_python/test_stack_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_stack_python/test_stack_python.py" afterDir="false" />
@@ -47,104 +47,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_atm_machine.test_add_with_negatives.executor": "Run",
-    "Python tests.Python tests for test_compare.test_greater_equal.executor": "Run",
-    "Python tests.Python tests for test_fizzbuzz.test_fizzbuzz_input_for_1.executor": "Run",
-    "Python tests.Python tests for test_fizzbuzz.test_fizzbuzz_input_for_25.executor": "Run",
-    "Python tests.Python tests for test_fizzbuzz.test_int_to_specific_str.executor": "Run",
-    "Python tests.Python tests for test_fizzbuzz.test_multiple_input_output.executor": "Run",
-    "Python tests.Python tests for test_fizzbuzz.test_str_to_int.executor": "Run",
-    "Python tests.Python tests for test_leap_year.test_leap_year.executor": "Run",
-    "Python tests.Python tests for test_pytest.test_sqrt.executor": "Run",
-    "Python tests.Python tests for test_pytest.testsquare.executor": "Run",
-    "Python tests.Python tests for test_square.test_equality.executor": "Run",
-    "Python tests.Python tests for test_square.test_sqrt.executor": "Run",
-    "Python tests.Python tests for test_stack_python.test_stack_python.executor": "Debug",
-    "Python tests.Python tests for test_string_calculator.test_add_no_negatives.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_add_with_negatives.executor": "Debug",
-    "Python tests.Python tests for test_string_calculator.test_blank_input.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_deli_inside_square_bracket.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_delimeter_inside_square_bracket.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_disallow_negative.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_ignore_numbers_bigger_than_1000.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_input_is_four.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_multiple_deli.executor": "Debug",
-    "Python tests.Python tests for test_string_calculator.test_multiple_delimeter.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_multiple_single_length_seperators.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_negative_number.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_negative_number_and_bigger_than_1000.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_negetive_number.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_string_input.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_values_csv.executor": "Run",
-    "Python tests.Python tests for test_string_calculator.test_values_csv_for_unknown_numbers.executor": "Run",
-    "Python tests.Python tests in C:/Users/admin/PycharmProjects/TTDWithPython/test/test_stack_python/test_stack_python.py.executor": "Run",
-    "Python tests.Python tests in test_atm_machine.py.executor": "Run",
-    "Python tests.Python tests in test_fizzbuzz.py.executor": "Run",
-    "Python tests.Python tests in test_leap_year.py.executor": "Run",
-    "Python tests.Python tests in test_pytest.py.executor": "Run",
-    "Python tests.Python tests in test_square.py.executor": "Run",
-    "Python tests.Python tests in test_stack_python.py.executor": "Run",
-    "Python tests.Python tests in test_string_calculator.py.executor": "Run",
-    "Python.fizzbuzz.executor": "Run",
-    "Python.leap_year.executor": "Run",
-    "Python.stack_katas_via_deque.executor": "Run",
-    "Python.stack_program.executor": "Run",
-    "Python.stack_via_deque.executor": "Debug",
-    "Python.stack_via_function.executor": "Run",
-    "Python.string_calculator.executor": "Run",
-    "Python.test_leap_year.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last.edited.regexp": "Sample Text"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_atm_machine.test_add_with_negatives.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_compare.test_greater_equal.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_fizzbuzz.test_fizzbuzz_input_for_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_fizzbuzz.test_fizzbuzz_input_for_25.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_fizzbuzz.test_int_to_specific_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_fizzbuzz.test_multiple_input_output.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_fizzbuzz.test_str_to_int.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_leap_year.test_leap_year.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_pytest.test_sqrt.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_pytest.testsquare.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_square.test_equality.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_square.test_sqrt.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_stack_python.test_stack_python.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_add_no_negatives.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_add_with_negatives.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_blank_input.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_deli_inside_square_bracket.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_delimeter_inside_square_bracket.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_disallow_negative.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_ignore_numbers_bigger_than_1000.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_input_is_four.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_multiple_deli.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_multiple_delimeter.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_multiple_single_length_seperators.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_negative_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_negative_number_and_bigger_than_1000.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_negetive_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_string_input.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_values_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_string_calculator.test_values_csv_for_unknown_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in C:/Users/admin/PycharmProjects/TTDWithPython/test/test_stack_python/test_stack_python.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_atm_machine.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_fizzbuzz.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_leap_year.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_pytest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_square.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_stack_python.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_string_calculator.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fizzbuzz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.leap_year.executor&quot;: &quot;Run&quot;,
+    &quot;Python.stack_katas_via_deque.executor&quot;: &quot;Run&quot;,
+    &quot;Python.stack_program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.stack_via_deque.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.stack_via_function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.string_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_leap_year.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last.edited.regexp&quot;: &quot;Sample Text&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.Python tests in C:/Users/admin/PycharmProjects/TTDWithPython/test/test_stack_python/test_stack_python.py">
-    <configuration name="stack_katas_via_deque" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TTDWithPython" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/stack_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/stack_python/stack_katas_via_deque.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="stack_via_deque" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="TTDWithPython" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/stack_python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/stack_python/stack_via_deque.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="stack_via_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
@@ -167,6 +123,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_stack_python.test_stack_overflow" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TTDWithPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/test_stack_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_stack_python.test_stack_overflow&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_stack_python.test_stack_python" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="TTDWithPython" />
       <option name="ENV_FILES" value="" />
@@ -179,6 +150,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_stack_python.test_stack_python&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_stack_python.test_stack_underflow" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TTDWithPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/test_stack_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_stack_python.test_stack_underflow&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -200,10 +186,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in C:/Users/admin/PycharmProjects/TTDWithPython/test/test_stack_python/test_stack_python.py" />
+        <item itemvalue="Python tests.Python tests for test_stack_python.test_stack_underflow" />
+        <item itemvalue="Python tests.Python tests for test_stack_python.test_stack_overflow" />
         <item itemvalue="Python tests.Python tests for test_stack_python.test_stack_python" />
         <item itemvalue="Python.stack_via_function" />
-        <item itemvalue="Python.stack_katas_via_deque" />
-        <item itemvalue="Python.stack_via_deque" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727270492862</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="stack_04">
+      <option name="closed" value="true" />
+      <created>1727325200721</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1727325200721</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -454,7 +448,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial Commit" />
     <MESSAGE value="add function created and cover scenrio for blank string" />
     <MESSAGE value="production code updated for single value" />
     <MESSAGE value="function prepared for blank, single value and csv values set" />
@@ -479,7 +472,8 @@
     <MESSAGE value="string_Calc" />
     <MESSAGE value="stack_01" />
     <MESSAGE value="stack_03" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack_03" />
+    <MESSAGE value="stack_04" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack_04" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
