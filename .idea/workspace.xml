@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="stack_01">
-      <change afterPath="$PROJECT_DIR$/src/stack_python/stack_via_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_stack_python/test_stack_python.py" afterDir="false" />
+    <list default="true" id="5f5b19e5-28b6-4b5d-ac3c-49738fa20867" name="Changes" comment="stack_03">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack_python/stack_via_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack_python/stack_via_function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_stack_python/test_stack_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_stack_python/test_stack_python.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -431,7 +431,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727066250233</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="stack_03">
+      <option name="closed" value="true" />
+      <created>1727270492862</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1727270492862</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -470,7 +478,8 @@
     <MESSAGE value="pytest testing 02" />
     <MESSAGE value="string_Calc" />
     <MESSAGE value="stack_01" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack_01" />
+    <MESSAGE value="stack_03" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack_03" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -482,11 +491,6 @@
           <url>file://$PROJECT_DIR$/src/stack_python/stack_katas_via_deque.py</url>
           <line>2</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/stack_python/stack_via_function.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
